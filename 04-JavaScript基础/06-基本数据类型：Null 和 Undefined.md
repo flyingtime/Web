@@ -1,4 +1,3 @@
-
 很多其他的语言中，只有 null；但 JS 语言中，既有 null，又有 undefined。很多人会弄混，由此觉得 JS 语言很麻烦。其实不然，学习完这篇文章后，你会发现 null 和 undefined 的区别很容易理解。
 
 ## Null：空对象
@@ -99,23 +98,12 @@ null 和 undefined 有很大的相似性。看看 `null == undefined` 的结果�
 
 但是 `null === undefined` 的结果是 false。它们虽然相似，但还是有区别的，其中一个区别是，和数字运算时：
 
-- 10 + null 结果为 10。
+-   10 + null 结果为 10。
 
-- 10 + undefined 结果为 NaN。
+-   10 + undefined 结果为 NaN。
 
 规律总结：
 
-- 任何数据类型和 undefined 运算都是 NaN;
+-   任何数据类型和 undefined 运算都是 NaN;
 
-- 任何值和 null 运算，null 可看做 0 运算。
-
-
-
-## 我的公众号
-
-想学习**代码之外的技能**？不妨关注我的微信公众号：**千古壹号**。
-
-扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
-
-![](http://img.smyhvae.com/20200101.png)
-
+-   任何值和 null 运算，null 可看做 0 运算。

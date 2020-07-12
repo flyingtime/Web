@@ -38,39 +38,39 @@ VS Code 的全称是 Visual Studio Code，是一款开源的、免费的、跨�
 
 IDE 和编辑器是有区别的：
 
-- **IDE**（Integrated Development Environment，集成开发环境）：对代码有较好的智能提示和相互跳转，同时侧重于工程项目，对项目的开发、调试工作有较好的图像化界面的支持，因此比较笨重。比如 Eclipse 的定位就是 IDE。
+-   **IDE**（Integrated Development Environment，集成开发环境）：对代码有较好的智能提示和相互跳转，同时侧重于工程项目，对项目的开发、调试工作有较好的图像化界面的支持，因此比较笨重。比如 Eclipse 的定位就是 IDE。
 
-- **编辑器**：要相对轻量许多，侧重于文本的编辑。比如 Sublime Text 的定位就是编辑器。再比如 Windows 系统自带的「记事本」就是最简单的编辑器。
+-   **编辑器**：要相对轻量许多，侧重于文本的编辑。比如 Sublime Text 的定位就是编辑器。再比如 Windows 系统自带的「记事本」就是最简单的编辑器。
 
 需要注意的是，VS Code 的定位是**编辑器**，而非 IDE ，但 VS Code 又比一般的编辑器的功能要丰富许多。可以这样理解：VS Code 的体量是介于编辑器和 IDE 之间。
 
 ### VS Code 的特点
 
-- VS Code 的使命，是让开发者在编辑器里拥有 IDE 那样的开发体验，比如代码的智能提示、语法检查、图形化的调试工具、插件扩展、版本管理等。
+-   VS Code 的使命，是让开发者在编辑器里拥有 IDE 那样的开发体验，比如代码的智能提示、语法检查、图形化的调试工具、插件扩展、版本管理等。
 
-- 跨平台支持 MacOS、Windows 和 Linux 等多个平台。
+-   跨平台支持 MacOS、Windows 和 Linux 等多个平台。
 
-- VS Code 的源代码以 MIT 协议开源。
+-   VS Code 的源代码以 MIT 协议开源。
 
-- 支持第三方插件，功能强大，生态系统完善。
+-   支持第三方插件，功能强大，生态系统完善。
 
-- VS Code 自带了 JavaScript、TypeScript 和 Node.js 的支持。也就是说，你在书写 JS 和 TS 时，是自带智能提示的。当然，其他的语言，你可以安装相应的**扩展包**插件，也会有智能提示。
+-   VS Code 自带了 JavaScript、TypeScript 和 Node.js 的支持。也就是说，你在书写 JS 和 TS 时，是自带智能提示的。当然，其他的语言，你可以安装相应的**扩展包**插件，也会有智能提示。
 
 ### 前端利器之争： VS Code 与 WebStorm
 
 前端小白最喜欢问的一个问题是：哪个编辑器/IDE 好用？是 VS Code 还是 WebStorm （WebStorm 其实是 IntelliJ IDEA 的定制版）？我来做个对比：
 
-- **哪个更酷**：显然 VS Code 更酷。
+-   **哪个更酷**：显然 VS Code 更酷。
 
-- **内存占用情况**：根据我的观察，VS Code 是很占内存的（尤其是当你打开多个窗口的时候），但如果你的内存条够用，使用起来是不会有任何卡顿的感觉的。相比之下，IntelliJ IDEA 不仅非常占内存，而且还非常卡顿。如果你想换个既轻量级、又不占内存的编辑器，最好还是使用「Sublime Text」编辑器。
+-   **内存占用情况**：根据我的观察，VS Code 是很占内存的（尤其是当你打开多个窗口的时候），但如果你的内存条够用，使用起来是不会有任何卡顿的感觉的。相比之下，IntelliJ IDEA 不仅非常占内存，而且还非常卡顿。如果你想换个既轻量级、又不占内存的编辑器，最好还是使用「Sublime Text」编辑器。
 
-- **使用比例**：当然是 VS Code 更胜一筹。先不说别的，我就拿数据说话，我目前所在的研发团队有 200 人左右（120个后台、80个前端），他们绝大部分人都在用 VS Code 编码，妥妥的。
+-   **使用比例**：当然是 VS Code 更胜一筹。先不说别的，我就拿数据说话，我目前所在的研发团队有 200 人左右（120 个后台、80 个前端），他们绝大部分人都在用 VS Code 编码，妥妥的。
 
 所以，如果你以后还问这个问题，那就真有些掉底了。
 
 ### VS Code 的安装
 
-- VS Code 官网：<https://code.visualstudio.com>
+-   VS Code 官网：<https://code.visualstudio.com>
 
 VS Code 的安装很简单，直接去官网下载安装包，然后双击安装即可。
 
@@ -149,9 +149,9 @@ VS Code 用得熟不熟，首先就看你是否会用快捷键。以下列出的
 
 其他的多光标编辑操作：（很重要）
 
-- 选中某个文本，然后反复按住快捷键「 **Cmd + D** 」键（windows 用户是按住「**Ctrl + D**」键）， 即可将全文中相同的词逐一加入选择。
+-   选中某个文本，然后反复按住快捷键「 **Cmd + D** 」键（windows 用户是按住「**Ctrl + D**」键）， 即可将全文中相同的词逐一加入选择。
 
-- 选中一堆文本后，按住「**Option + Shift + i**」键（windows 用户是按住「**Alt + Shift + I**」键），既可在**每一行的末尾**都创建一个光标。
+-   选中一堆文本后，按住「**Option + Shift + i**」键（windows 用户是按住「**Alt + Shift + I**」键），既可在**每一行的末尾**都创建一个光标。
 
 ### 6、删除操作
 
@@ -205,7 +205,7 @@ VS Code 用得熟不熟，首先就看你是否会用快捷键。以下列出的
 
 ### 快捷键参考链接
 
-- 快捷键速查表[官方]：<https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf>
+-   快捷键速查表[官方]：<https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf>
 
 ## 三、命令面板的使用
 
@@ -241,9 +241,9 @@ Mac 用户按住快捷键 `Cmd+Shift+P` （Windows 用户按住快捷键`Ctrl+Sh
 
 （2）使用命令行：
 
-- `code`命令：启动 VS Code 软件
+-   `code`命令：启动 VS Code 软件
 
-- `code pathName/fileName`命令：通过 VS Code 软件打开指定目录/指定文件。
+-   `code pathName/fileName`命令：通过 VS Code 软件打开指定目录/指定文件。
 
 ## 四、私人订制：VS Code 的常见配置
 
@@ -340,15 +340,15 @@ VS Code 会根据你所打开的文件来决定该使用空格还是制表。也
 
 常见的设置项如下：
 
-- **editor.detectIndentation**：自动检测（默认开启）。截图如下：
+-   **editor.detectIndentation**：自动检测（默认开启）。截图如下：
 
 ![](http://img.smyhvae.com/20190417_2205.png)
 
-- **editor.insertSpaces**：按 Tab 键时插入空格（默认）。截图如下：
+-   **editor.insertSpaces**：按 Tab 键时插入空格（默认）。截图如下：
 
 ![](http://img.smyhvae.com/20190417_2207.png)
 
-- **editor.tabSize**：一个制表符默认等于四个空格。截图如下：
+-   **editor.tabSize**：一个制表符默认等于四个空格。截图如下：
 
 ![](http://img.smyhvae.com/20190417_2209.png)
 
@@ -390,11 +390,11 @@ VS Code 自带的对比功能并不够强大，我们可以安装插件`comparei
 
 ### 14、鼠标操作
 
-- 在当前行的位置，鼠标三击，可以选中当前行。
+-   在当前行的位置，鼠标三击，可以选中当前行。
 
-- 用鼠标单击文件的**行号**，可以选中当前行。
+-   用鼠标单击文件的**行号**，可以选中当前行。
 
-- 在某个**行号**的位置，**上下移动鼠标，可以选中多行**。
+-   在某个**行号**的位置，**上下移动鼠标，可以选中多行**。
 
 ### 15、重构
 
@@ -412,9 +412,9 @@ VS Code 自带的对比功能并不够强大，我们可以安装插件`comparei
 
 在上面的快捷键列表中，我们已经知道如下快捷键：
 
-- Cmd + F（Win 用户是 Ctrl + F）：在当前文件中搜索，光标在搜索框里
+-   Cmd + F（Win 用户是 Ctrl + F）：在当前文件中搜索，光标在搜索框里
 
-- Cmd + G（Win 用户是 F3）：在当前文件中搜索，光标仍停留在编辑器里
+-   Cmd + G（Win 用户是 F3）：在当前文件中搜索，光标仍停留在编辑器里
 
 另外，你可能会注意到，搜索框里有很多按钮，每个按钮都对应着不同的功能，如下图所示：
 
@@ -430,7 +430,7 @@ VS Code 自带的对比功能并不够强大，我们可以安装插件`comparei
 
 在上面的快捷键列表中，我们已经知道如下快捷键：
 
-- Cmd + Shift + F（Win 用户是 Ctrl + Shift +F）：在全局的文件夹中进行搜索。效果如下：
+-   Cmd + Shift + F（Win 用户是 Ctrl + Shift +F）：在全局的文件夹中进行搜索。效果如下：
 
 ![](http://img.smyhvae.com/20190415_2107.png)
 
@@ -470,9 +470,9 @@ VS Code 自带了 Git 版本管理，如下图所示：
 
 为了统一团队的 vscode 配置，我们可以在项目的根目录下建立`.vscode`目录，在里面放置一些配置内容，比如：
 
-- `settings.json`：工作空间设置、代码格式化配置、插件配置。
+-   `settings.json`：工作空间设置、代码格式化配置、插件配置。
 
-- `sftp.json`：ftp 文件传输的配置。
+-   `sftp.json`：ftp 文件传输的配置。
 
 `.vscode`目录里的配置只针对当前项目范围内生效。将`.vscode`提交到代码仓库，大家统一配置时，会非常方便。
 
@@ -500,12 +500,12 @@ VS Code 自带 markdown 语法高亮。也就是说，如果你是用 markdown �
 
 ```html
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
 </ul>
 ```
 
@@ -540,13 +540,13 @@ VS Code 默认支持 Emmet。更多 Emmet 语法规则，请自行查阅。
 
 ```json
 {
-  "printWidth": 150,
-  "tabWidth": 4,
-  "semi": true,
-  "singleQuote": true,
-  "trailingComma": "es5",
-  "tslintIntegration": true,
-  "insertSpaceBeforeFunctionParenthesis": false
+    "printWidth": 150,
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "tslintIntegration": true,
+    "insertSpaceBeforeFunctionParenthesis": false
 }
 ```
 
@@ -564,47 +564,47 @@ VS Code 默认支持 Emmet。更多 Emmet 语法规则，请自行查阅。
 
 （2）配置 `sftp.json`文件。 插件安装完成后，输入快捷键「cmd+shift+P」弹出命令面板，然后输入`sftp:config`，回车，当前工程的`.vscode`文件夹下就会自动生成一个`sftp.json`文件，我们需要在这个文件里配置的内容可以是：
 
-- `host`：服务器的 IP 地址
+-   `host`：服务器的 IP 地址
 
-- `username`：用户名
+-   `username`：用户名
 
-- `privateKeyPath`：存放在本地的已配置好的用于登录工作站的密钥文件（也可以是 ppk 文件）
+-   `privateKeyPath`：存放在本地的已配置好的用于登录工作站的密钥文件（也可以是 ppk 文件）
 
-- `remotePath`：工作站上与本地工程同步的文件夹路径，需要和本地工程文件根目录同名，且在使用 sftp 上传文件之前，要手动在工作站上 mkdir 生成这个根目录
+-   `remotePath`：工作站上与本地工程同步的文件夹路径，需要和本地工程文件根目录同名，且在使用 sftp 上传文件之前，要手动在工作站上 mkdir 生成这个根目录
 
-- `ignore`：指定在使用 sftp: sync to remote 的时候忽略的文件及文件夹，注意每一行后面有逗号，最后一行没有逗号
+-   `ignore`：指定在使用 sftp: sync to remote 的时候忽略的文件及文件夹，注意每一行后面有逗号，最后一行没有逗号
 
 举例如下：(注意，其中的注释需要去掉)
 
 ```json
 {
-  "host": "192.168.xxx.xxx", //服务器ip
-  "port": 22, //端口，sftp模式是22
-  "username": "", //用户名
-  "password": "", //密码
-  "protocol": "sftp", //模式
-  "agent": null,
-  "privateKeyPath": null,
-  "passphrase": null,
-  "passive": false,
-  "interactiveAuth": false,
-  "remotePath": "/root/node/build/", //服务器上的文件地址
-  "context": "./server/build", //本地的文件地址
+    "host": "192.168.xxx.xxx", //服务器ip
+    "port": 22, //端口，sftp模式是22
+    "username": "", //用户名
+    "password": "", //密码
+    "protocol": "sftp", //模式
+    "agent": null,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "passive": false,
+    "interactiveAuth": false,
+    "remotePath": "/root/node/build/", //服务器上的文件地址
+    "context": "./server/build", //本地的文件地址
 
-  "uploadOnSave": true, //监听保存并上传
-  "syncMode": "update",
-  "watcher": {
-    //监听外部文件
-    "files": false, //外部文件的绝对路径
-    "autoUpload": false,
-    "autoDelete": false
-  },
-  "ignore": [
-    //忽略项
-    "**/.vscode/**",
-    "**/.git/**",
-    "**/.DS_Store"
-  ]
+    "uploadOnSave": true, //监听保存并上传
+    "syncMode": "update",
+    "watcher": {
+        //监听外部文件
+        "files": false, //外部文件的绝对路径
+        "autoUpload": false,
+        "autoDelete": false
+    },
+    "ignore": [
+        //忽略项
+        "**/.vscode/**",
+        "**/.git/**",
+        "**/.DS_Store"
+    ]
 }
 ```
 
@@ -670,15 +670,15 @@ VS Code 有一个很强大的功能就是支持插件扩展，让你的编辑器
 
 GitLens 在 Git 管理上有很多强大的功能，比如：
 
-- 将光标放置在代码的当前行，可以看到这样代码的提交者是谁，以及提交时间。这一点，是 GitLens 最便捷的功能。
+-   将光标放置在代码的当前行，可以看到这样代码的提交者是谁，以及提交时间。这一点，是 GitLens 最便捷的功能。
 
-- 查看某个 commit 的代码改动记录
+-   查看某个 commit 的代码改动记录
 
-- 查看不同的分支
+-   查看不同的分支
 
-- 可以将两个 commit 进行代码对比
+-   可以将两个 commit 进行代码对比
 
-- 甚至可以将两个 branch 分支进行整体的代码对比。这一点，简直是 GitLens 最强大的功能。当我们在不同分支 review 代码的时候，就可以用到这一招。
+-   甚至可以将两个 branch 分支进行整体的代码对比。这一点，简直是 GitLens 最强大的功能。当我们在不同分支 review 代码的时候，就可以用到这一招。
 
 ### 2、Git History
 
@@ -774,17 +774,17 @@ vscode-icons 会根据文件的后缀名来显示不同的图标，让你更直�
 
 ### 16、Settings Sync【荐】
 
-- 地址：<https://github.com/shanalikhan/code-settings-sync>
+-   地址：<https://github.com/shanalikhan/code-settings-sync>
 
-- 作用：多台设备之间，同步 VS Code 配置。通过登录 GitHub 账号来使用这个同步工具。
+-   作用：多台设备之间，同步 VS Code 配置。通过登录 GitHub 账号来使用这个同步工具。
 
 同步的详细操作已在上面讲过。
 
 ### 17、vscode-syncing
 
-- 地址：<https://github.com/nonoroazoro/vscode-syncing>
+-   地址：<https://github.com/nonoroazoro/vscode-syncing>
 
-- 作用：多台设备之间，同步 VS Code 配置。
+-   作用：多台设备之间，同步 VS Code 配置。
 
 ### 18、Vetur
 
@@ -842,11 +842,11 @@ ES6 语法智能提示，支持快速输入。
 
 编程有三等境界：
 
-- 第三等境界是打日志，这是最简单、便捷的方式，略显低级，一般新手或资深程序员偷懒时会用。
+-   第三等境界是打日志，这是最简单、便捷的方式，略显低级，一般新手或资深程序员偷懒时会用。
 
-- 第二等境界是断点调试，在前端、Java、PHP、iOS 开发时非常常用，通过断点调试可以很直观地跟踪代码执行逻辑、调用栈、变量等，是非常实用的技巧。
+-   第二等境界是断点调试，在前端、Java、PHP、iOS 开发时非常常用，通过断点调试可以很直观地跟踪代码执行逻辑、调用栈、变量等，是非常实用的技巧。
 
-- 第一等境界是测试驱动开发，在写代码之前先写测试。与第二等的断点调试刚好相反，大部分人不是很习惯这种方式，但在国外开发者或者敏捷爱好者看来，这是最高效的开发方式，在保证代码质量、重构等方面非常有帮助，是现代编程开发必不可少的一部分。
+-   第一等境界是测试驱动开发，在写代码之前先写测试。与第二等的断点调试刚好相反，大部分人不是很习惯这种方式，但在国外开发者或者敏捷爱好者看来，这是最高效的开发方式，在保证代码质量、重构等方面非常有帮助，是现代编程开发必不可少的一部分。
 
 ### 28、Code Spell Checker：单词拼写错误检查
 
@@ -932,29 +932,29 @@ CSS Peek 对 Vue 没有支持，该插件提供了对 Vue 文件的支持。
 
 给你的 VS Code 换个皮肤吧，免费的那种。
 
-- Dracula Theme
+-   Dracula Theme
 
-- Material Theme
+-   Material Theme
 
-- Nebula Theme
+-   Nebula Theme
 
-- [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
+-   [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
 
-- One Monokai Theme
+-   One Monokai Theme
 
-- Monokai Pro
+-   Monokai Pro
 
-- Ayu
+-   Ayu
 
-* [Snazzy Plus](https://marketplace.visualstudio.com/items?itemName=akarlsten.vscode-snazzy-akarlsten)
+*   [Snazzy Plus](https://marketplace.visualstudio.com/items?itemName=akarlsten.vscode-snazzy-akarlsten)
 
-* [Dainty](https://marketplace.visualstudio.com/items?itemName=alexanderte.dainty-vscode)
+*   [Dainty](https://marketplace.visualstudio.com/items?itemName=alexanderte.dainty-vscode)
 
-* `SynthWave '84`
+*   `SynthWave '84`
 
-- GitHub Plus Theme：白色主题
+-   GitHub Plus Theme：白色主题
 
-- Horizon Theme：红色主题
+-   Horizon Theme：红色主题
 
 ## 最后一段
 
@@ -968,32 +968,24 @@ CSS Peek 对 Vue 没有支持，该插件提供了对 Vue 文件的支持。
 
 ## 参考链接
 
-- [VSCode 插件大全｜ VSCode 高级玩家之第二篇](https://juejin.im/post/5ea40c6751882573b219777d)
+-   [VSCode 插件大全｜ VSCode 高级玩家之第二篇](https://juejin.im/post/5ea40c6751882573b219777d)
 
-- <http://www.supuwoerc.xyz/tools/vscode/plugins.html>
+-   <http://www.supuwoerc.xyz/tools/vscode/plugins.html>
 
-- [如何让 VS Code 更好用 10 倍？这里有一份 VS Code 新手指南](https://zhuanlan.zhihu.com/p/99462672)
+-   [如何让 VS Code 更好用 10 倍？这里有一份 VS Code 新手指南](https://zhuanlan.zhihu.com/p/99462672)
 
-- [那些你应该考虑卸载的 VSCode 扩展](https://lyreal666.com/%E9%82%A3%E4%BA%9B%E4%BD%A0%E5%BA%94%E8%AF%A5%E8%80%83%E8%99%91%E5%8D%B8%E8%BD%BD%E7%9A%84-VSCode-%E6%89%A9%E5%B1%95/#more)
+-   [那些你应该考虑卸载的 VSCode 扩展](https://lyreal666.com/%E9%82%A3%E4%BA%9B%E4%BD%A0%E5%BA%94%E8%AF%A5%E8%80%83%E8%99%91%E5%8D%B8%E8%BD%BD%E7%9A%84-VSCode-%E6%89%A9%E5%B1%95/#more)
 
-- [VS Code 折腾记 - (16) 推荐一波实用的插件集](https://juejin.im/post/5d74eb5c51882525017787d9)
+-   [VS Code 折腾记 - (16) 推荐一波实用的插件集](https://juejin.im/post/5d74eb5c51882525017787d9)
 
-- [VSCode 前端必备插件，有可能你装了却不知道如何使用？](https://juejin.im/post/5db66672f265da4d0e009aad)
+-   [VSCode 前端必备插件，有可能你装了却不知道如何使用？](https://juejin.im/post/5db66672f265da4d0e009aad)
 
-- [能让你开发效率翻倍的 VSCode 插件配置（上）](https://juejin.im/post/5a08d1d6f265da430f31950e)
+-   [能让你开发效率翻倍的 VSCode 插件配置（上）](https://juejin.im/post/5a08d1d6f265da430f31950e)
 
-- [https://segmentfault.com/a/1190000012811886](https://segmentfault.com/a/1190000012811886)
+-   [https://segmentfault.com/a/1190000012811886](https://segmentfault.com/a/1190000012811886)
 
-- [「Vscode」打造类 sublime 的高颜值编辑器](https://idoubi.cc/2019/07/08/vscode-sublime-theme/)
+-   [「Vscode」打造类 sublime 的高颜值编辑器](https://idoubi.cc/2019/07/08/vscode-sublime-theme/)
 
-- [Mac Vscode 快捷键](https://lsqy.tech/2020/03/14/20200314Mac-Vscode%E5%BF%AB%E6%8D%B7%E9%94%AE/)
+-   [Mac Vscode 快捷键](https://lsqy.tech/2020/03/14/20200314Mac-Vscode%E5%BF%AB%E6%8D%B7%E9%94%AE/)
 
-* [使用 VSCode 的一些技巧](https://mp.weixin.qq.com/s?src=11&timestamp=1591581536&ver=2387&signature=i4xLZlLe1Gkl7OiBIhPO*VSeNB5lzFgTY-dgNW9E9ZbtIAv4bnJ1RdAAZdhvDw*cg-DmMcUa-V8NSUdV-tthmXZCq3ht4edCweq6v0QxKjnh8IuAxyyh5qymdRui*8iE&new=1)
-
-## 我的公众号
-
-想学习<font color=#0000ff>**代码之外的技能**</font>？不妨关注我的微信公众号：**千古壹号**。
-
-扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
-
-![](http://img.smyhvae.com/20190101.png)
+*   [使用 VSCode 的一些技巧](https://mp.weixin.qq.com/s?src=11&timestamp=1591581536&ver=2387&signature=i4xLZlLe1Gkl7OiBIhPO*VSeNB5lzFgTY-dgNW9E9ZbtIAv4bnJ1RdAAZdhvDw*cg-DmMcUa-V8NSUdV-tthmXZCq3ht4edCweq6v0QxKjnh8IuAxyyh5qymdRui*8iE&new=1)

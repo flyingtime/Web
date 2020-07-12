@@ -1,12 +1,10 @@
-
-
-## img标签介绍
+## img 标签介绍
 
 ### 介绍
 
 img: 英文全称 image（图像），代表的是一张图片。
 
-如果要想在网页中显示图像，就可以使用img 标签，它是一个单标签。语法如下：
+如果要想在网页中显示图像，就可以使用 img 标签，它是一个单标签。语法如下：
 
 ```html
 <img src="图片的URL" />
@@ -14,16 +12,17 @@ img: 英文全称 image（图像），代表的是一张图片。
 
 ### 能插入的图片类型
 
-- 能够插入的图片类型是：jpg(jpeg)、gif、png、bmp等。
+-   能够插入的图片类型是：jpg(jpeg)、gif、png、bmp 等。
 
-- 不能往网页中插入的图片格式是：psd、ai等。
+-   不能往网页中插入的图片格式是：psd、ai 等。
 
-HTML页面不是直接插入图片，而是插入图片的引用地址，所以要先把图片上传到服务器上。
+HTML 页面不是直接插入图片，而是插入图片的引用地址，所以要先把图片上传到服务器上。
 
-## img标签的`src`属性
+## img 标签的`src`属性
+
 这里涉及到图片的一个属性：
 
-- `src`属性：指图片的路径。英文名称 source。
+-   `src`属性：指图片的路径。英文名称 source。
 
 在写**图片的路径**时，有两种写法：相对路径、绝对路径
 
@@ -31,15 +30,15 @@ HTML页面不是直接插入图片，而是插入图片的引用地址，所以�
 
 相对当前页面所在的路径。两个标记 `.` 和 `..` 分表代表当前目录和上一层目录。
 
-举例1：
+举例 1：
 
 ```html
 <!-- 当前目录中的图片 -->
-<img src="2.jpg">
-<img src=".\2.jpg">
+<img src="2.jpg" />
+<img src=".\2.jpg" />
 
 <!-- 上一级目录中的图片 -->
-<img src="..\2.jpg">
+<img src="..\2.jpg" />
 ```
 
 相对路径不会出现这种情况：
@@ -50,12 +49,13 @@ aaa/../bbb/1.jpg
 
 `../`要么不写，要么就写在开头。
 
-举例2：
+举例 2：
 
 ```html
-<img src="images/1.jpg">
+<img src="images/1.jpg" />
 ```
-上方代码的意思是说，当前html页面有一个并列的文件夹`images`，在文件夹`images`中存放了一张图片`1.jpg`
+
+上方代码的意思是说，当前 html 页面有一个并列的文件夹`images`，在文件夹`images`中存放了一张图片`1.jpg`
 效果：
 
 ![Paste_Image.png](http://img.smyhvae.com/20151001_19.jpg)
@@ -64,11 +64,11 @@ aaa/../bbb/1.jpg
 
 ![](http://img.smyhvae.com/20170630_1133.png)
 
-问题：如果想在index.html中插入1.png，那么对应的img语句是？
+问题：如果想在 index.html 中插入 1.png，那么对应的 img 语句是？
 
 分析：
 
-现在document是最大的文件夹，里面有两个文件夹work和photo。work中又有一个文件夹叫做myweb。myweb文件夹里面有index.html。  所以index.html在myweb文件夹里面，上一级就是work文件夹，上两级就是document文件夹。通过document文件夹当做一个中转站，进入photo文件夹，看到了1.png。
+现在 document 是最大的文件夹，里面有两个文件夹 work 和 photo。work 中又有一个文件夹叫做 myweb。myweb 文件夹里面有 index.html。 所以 index.html 在 myweb 文件夹里面，上一级就是 work 文件夹，上两级就是 document 文件夹。通过 document 文件夹当做一个中转站，进入 photo 文件夹，看到了 1.png。
 
 答案：
 
@@ -83,29 +83,28 @@ aaa/../bbb/1.jpg
 （1）以盘符开始的绝对路径。举例：
 
 ```html
-<img src="C:\Users\qianguyihao\Desktop\html\images\1.jpg">
+<img src="C:\Users\qianguyihao\Desktop\html\images\1.jpg" />
 ```
 
 （2）网络路径。举例：
 
 ```html
-<img src="http://img.smyhvae.com/20200122_200901.png">
-
+<img src="http://img.smyhvae.com/20200122_200901.png" />
 ```
 
-大家打开上面的img中的链接，可能有惊喜哦。
+大家打开上面的 img 中的链接，可能有惊喜哦。
 
 ### 相对路径和绝对路径的总结
 
 相对路径的好处：站点不管拷贝到哪里，文件和图片的相对路径关系都是不变的。相对路径使用有一个前提，就是网页文件和你的图片，必须在一个服务器上。
 
-问题：我的网页在C盘，图片却在D盘，能不能插入呢？
+问题：我的网页在 C 盘，图片却在 D 盘，能不能插入呢？
 
 答案： 用相对路径不能，用绝对路径也不能。
 
-注意：可以使用file://来插入，但是这种方法，没有任何意义！因为服务器上没有所谓c盘、d盘。
+注意：可以使用 file://来插入，但是这种方法，没有任何意义！因为服务器上没有所谓 c 盘、d 盘。
 
-下面的方法是行的，但是没有任何工程上的意义，这是因为服务器没有盘符，linux系统没有盘符：
+下面的方法是行的，但是没有任何工程上的意义，这是因为服务器没有盘符，linux 系统没有盘符：
 
 ```html
 <img src="file://C:\Users\qianguyihao\Pictures\明星\1.jpg" alt="" />
@@ -115,27 +114,27 @@ aaa/../bbb/1.jpg
 
 无论是在 a 标签还是 img 标签上，如果要用路径。只有两种路径能用，就是相对路径和绝对路径：
 
-- 相对路径从自己出发，找到别人。
+-   相对路径从自己出发，找到别人。
 
-- 绝对路径，就是`http://`或者`https://`开头的路径。
+-   绝对路径，就是`http://`或者`https://`开头的路径。
 
-- 绝对不允许使用`file://`开头的文件，这个是完全错误的！
+-   绝对不允许使用`file://`开头的文件，这个是完全错误的！
 
-## img标签的其他属性
+## img 标签的其他属性
 
 ### width、height 属性
 
-- `width`：图像的宽度。
+-   `width`：图像的宽度。
 
-- `height`：图像的高度。
+-   `height`：图像的高度。
 
-width和height，在 HTML5 中的单位是 CSS 像素，在 HTML 4 中既可以是像素，也可以是百分比。可以只指定 width 和 height 中的一个值，浏览器会根据原始图像进行缩放。
+width 和 height，在 HTML5 中的单位是 CSS 像素，在 HTML 4 中既可以是像素，也可以是百分比。可以只指定 width 和 height 中的一个值，浏览器会根据原始图像进行缩放。
 
-**重要提示**：如果要想保证图片等比例缩放，请只设置width和height中其中一个。
+**重要提示**：如果要想保证图片等比例缩放，请只设置 width 和 height 中其中一个。
 
 ### Alt 属性
 
-- `alt`：当图片不可用（无法显示）的时候，代替图片显示的内容。alt是英语 alternate “替代”的意思，代表替换资源。
+-   `alt`：当图片不可用（无法显示）的时候，代替图片显示的内容。alt 是英语 alternate “替代”的意思，代表替换资源。
 
 `Alt`属性效果演示：
 
@@ -145,7 +144,7 @@ width和height，在 HTML5 中的单位是 CSS 像素，在 HTML 4 中既可以�
 
 ### title 属性
 
-- `title`：**提示性文本**。鼠标悬停时出现的文本。
+-   `title`：**提示性文本**。鼠标悬停时出现的文本。
 
 title 属性不该被用作一幅图片在 alt 之外的补充说明信息。如果一幅图片需要小标题，使用 figure 或 figcaption 元素。
 
@@ -154,7 +153,7 @@ title 元素的值一般作为提示条(tooltip)呈现给用户，在光标于�
 举例：
 
 ```html
-<img src="images/1.jpg" width="300" height="`188" title="这是美女">
+<img src="images/1.jpg" width="300" height="`188" title="这是美女" />
 ```
 
 效果：
@@ -163,9 +162,9 @@ title 元素的值一般作为提示条(tooltip)呈现给用户，在光标于�
 
 ### align 属性
 
-- 图片的`align`属性：**图片和周围文字的相对位置**。属性取值可以是：bottom（默认）、center、top、left、right。
+-   图片的`align`属性：**图片和周围文字的相对位置**。属性取值可以是：bottom（默认）、center、top、left、right。
 
-如果想实现图文混排的效果，请使用align属性，取值为left或right。
+如果想实现图文混排的效果，请使用 align 属性，取值为 left 或 right。
 
 我们来分别看一下这`align`属性的这几个属性值的区别。
 
@@ -189,20 +188,11 @@ title 元素的值一般作为提示条(tooltip)呈现给用户，在光标于�
 
 ![](http://img.smyhvae.com/2015-10-02-cnblogs_html_24.png)
 
-
 ### 其他已废弃的属性
 
-- `Align`（已废弃）：指图片的水平对齐方式，属性值可以是：top、middle、bottom、left、center、right。该属性已废弃，替换为 `vertical-align`这个CSS属性。
-- `border`（已废弃）：给图片加边框，单位是像素，边框的颜色默认黑色。该属性已废弃，替换为 `border`这个CSS属性。
-- `Hspace`（已废弃）：指图片左右的边距。
-- `Vspace`（已废弃）：指图片上下的边距。
+-   `Align`（已废弃）：指图片的水平对齐方式，属性值可以是：top、middle、bottom、left、center、right。该属性已废弃，替换为 `vertical-align`这个 CSS 属性。
+-   `border`（已废弃）：给图片加边框，单位是像素，边框的颜色默认黑色。该属性已废弃，替换为 `border`这个 CSS 属性。
+-   `Hspace`（已废弃）：指图片左右的边距。
+-   `Vspace`（已废弃）：指图片上下的边距。
 
 最后，送上妹子的近照一张。楼主已经仁至义尽了：http://img.smyhvae.com/2015-10-01-cnblogs_html_20150219214912_11994.jpg
-
-## 我的公众号
-
-想学习**代码之外的技能**？不妨关注我的微信公众号：**千古壹号**（id：`qianguyihao`）。
-
-扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
-
-![](http://img.smyhvae.com/20200101.png)

@@ -40,8 +40,7 @@ Node 的重要性已经不言而喻，很多互联网公司都已经有大量的
 
 [Node.js](https://nodejs.org/zh-cn/) 是一个基于 **Chrome V8 引擎**的 JavaScript 运行环境。Node.js 使用了一个**事件驱动**、**非阻塞式 I/O**的模型，使其轻量又高效。Node.js 的包管理工具 npm 是全球最大的开源库生态系统。
 
-Node.js 不是一门语言，也不是 JavaScript 的框架，也不是像Nginx一样的Web服务器 ，**Node.js 是 JavaScript 在服务器端的运行环境（平台）**。
-
+Node.js 不是一门语言，也不是 JavaScript 的框架，也不是像 Nginx 一样的 Web 服务器 ，**Node.js 是 JavaScript 在服务器端的运行环境（平台）**。
 
 ### Node.js 的组成
 
@@ -53,9 +52,9 @@ Node.js 不是一门语言，也不是 JavaScript 的框架，也不是像Nginx�
 
 -   ECMAScript
 
--   DOM：标签元素相关的API
+-   DOM：标签元素相关的 API
 
--   BOM：浏览器相关的API
+-   BOM：浏览器相关的 API
 
 ECMAScript 是 JS 的语法；DOM 和 BOM 浏览器端为 JS 提供的 API。
 
@@ -166,7 +165,7 @@ BFF，即 Backend For Frontend（服务于前端的后端）。玉伯在《[从�
 
 历史回顾：
 
-（1）一开始，页面很简单，html 是后端渲染的（比如PHP、ASP、JSP等方式）。后端发现页面中的 js 好麻烦（虽然简单，但是坑多），于是让公司招聘专门写 js 的人，简称「前端切图仔」。
+（1）一开始，页面很简单，html 是后端渲染的（比如 PHP、ASP、JSP 等方式）。后端发现页面中的 js 好麻烦（虽然简单，但是坑多），于是让公司招聘专门写 js 的人，简称「前端切图仔」。
 
 （2）随着 Node.js 和前端 MVC 的兴起，以及前端越来越复杂，慢慢演变成了「前后端分离」。
 
@@ -186,7 +185,7 @@ BFF，即 Backend For Frontend（服务于前端的后端）。玉伯在《[从�
 
 ### 5、 做 PC 端的软件（基于 Electron 框架）
 
-Electron 框架就是基于 Node.js 的。也可以说：Electron 是 Node.js 在PC客户端的技术。
+Electron 框架就是基于 Node.js 的。也可以说：Electron 是 Node.js 在 PC 客户端的技术。
 
 有一点你可能会感到惊讶：程序员们都在用的代码编辑器 VS Code 软件， 就是用 JS 语言实现的。
 
@@ -237,13 +236,5 @@ Electron 框架就是基于 Node.js 的。也可以说：Electron 是 Node.js �
 对于个人而言，虽然全栈很难，但是 Node.js 的出现，**让 JS 语言实现了前后端语法的统一，让 JS 语言的技术栈更佳全面**。
 
 涉及到后台开发相关的技术，无论如何，也绕不开**框架设计、开发调试、数据库操作、高并发处理、大规模存储、性能优化、容灾方案、RPC 调用、进程管理、操作系统调度、网络安全、系统运维、日常维护、甚至是 Linux 内核、驱动开发**等过硬的知识技能和经验积累。等你亲身经历过这些，才算明白：语言只是一种工具。
-
-## 我的公众号
-
-想学习**代码之外的技能**？不妨关注我的微信公众号：**千古壹号**（id：`qianguyihao`）。
-
-扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
-
-![](http://img.smyhvae.com/20200101.png)
 
 ##

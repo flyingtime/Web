@@ -1,33 +1,30 @@
-
 ## 内置对象简介
 
-> JavaScript 中的对象分为3种：自定义对象 、内置对象、 浏览器对象。
+> JavaScript 中的对象分为 3 种：自定义对象 、内置对象、 浏览器对象。
 
-> 前面两种对象：是JS的基础内容，属于 ECMAScript； 第三个浏览器对象：属于JS独有，即 JS 内置的API。
+> 前面两种对象：是 JS 的基础内容，属于 ECMAScript； 第三个浏览器对象：属于 JS 独有，即 JS 内置的 API。
 
 **内置对象**：就是指这个语言自带的一些对象，供开发者使用，这些对象提供了一些常用或者最基本而必要的功能（属性和方法）。
 
 内置对象最大的优点就是帮助我们快速开发。
 
-**JavaScript的内置对象**：
+**JavaScript 的内置对象**：
 
-| 内置对象 | 对象说明 |
-|:-------------|:-------------|
-|  Arguments | 函数参数集合|
-|  Array | 数组|
-|  Boolean | 布尔对象|
-|  Math | 数学对象|
-|  Date | 日期时间|
-|  Error | 异常对象|
-|  Function | 函数构造器|
-|  Number | 数值对象|
-|  Object | 基础对象|
-|  RegExp | 正则表达式对象|
-|  String | 字符串对象|
+| 内置对象  | 对象说明       |
+| :-------- | :------------- |
+| Arguments | 函数参数集合   |
+| Array     | 数组           |
+| Boolean   | 布尔对象       |
+| Math      | 数学对象       |
+| Date      | 日期时间       |
+| Error     | 异常对象       |
+| Function  | 函数构造器     |
+| Number    | 数值对象       |
+| Object    | 基础对象       |
+| RegExp    | 正则表达式对象 |
+| String    | 字符串对象     |
 
 前面的几篇文章中，我们专门讲到了数组 Array。今天这篇文章，我们先来讲一下内置对象 Math。
-
-
 
 ## 字符串前言
 
@@ -42,7 +39,6 @@
 ### 1、indexOf()/lastIndexOf()：获取字符串中指定内容的索引
 
 > 这个方法，是使用频率最高的一个方法。
-
 
 **语法 1**：
 
@@ -131,22 +127,18 @@ while (index !== -1) {
 console.log('a 出现的次数是: ' + num);
 ```
 
-
 ### 2、search()：获取字符串中指定内容的索引（参数里一般是正则）
-
 
 **语法**：
 
 ```javascript
 索引值 = str.search(想要查找的字符串);
 索引值 = str.search(正则表达式);
-
 ```
 
 备注：`search()` 方法里的参数，既可以传字符串，也可以传正则表达式。
 
 **解释**：可以检索一个字符串中是否含有指定内容。如果字符串中含有该内容，则会返回其**第一次出现**的索引；如果没有找到指定的内容，则返回 -1。
-
 
 举例：
 
@@ -156,7 +148,6 @@ const name = 'qianguyihao';
 console.log(name.search('yi')); // 打印结果：6
 console.log(name.search(/\yi/i)); // 打印结果：6
 ```
-
 
 ### 3、includes()：字符串中是否包含指定的内容
 
@@ -168,7 +159,7 @@ console.log(name.search(/\yi/i)); // 打印结果：6
 
 **解释**：判断一个字符串中是否含有指定内容。如果字符串中含有该内容，则会返回 true；否则返回 false。
 
-参数中的 `position`：如果不指定，则默认为0；如果指定，则规定了检索的起始位置。
+参数中的 `position`：如果不指定，则默认为 0；如果指定，则规定了检索的起始位置。
 
 ```js
 const name = 'qianguyihao';
@@ -176,9 +167,8 @@ const name = 'qianguyihao';
 console.log(name.includes('yi')); // 打印结果：true
 console.log(name.includes('haha')); // 打印结果：false
 
-console.log(name.includes('yi',7)); // 打印结果：false
+console.log(name.includes('yi', 7)); // 打印结果：false
 ```
-
 
 ### 4、startsWith()：字符串是否以指定的内容开头
 
@@ -190,11 +180,11 @@ console.log(name.includes('yi',7)); // 打印结果：false
 
 **解释**：判断一个字符串是否以指定的子字符串开头。如果是，则返回 true；否则返回 false。
 
-**参数中的position**：
+**参数中的 position**：
 
-- 如果不指定，则默认为0。
+-   如果不指定，则默认为 0。
 
-- 如果指定，则规定了**检索的起始位置**。检索的范围包括：这个指定位置开始，直到字符串的末尾。即：[position, str.length)
+-   如果指定，则规定了**检索的起始位置**。检索的范围包括：这个指定位置开始，直到字符串的末尾。即：[position, str.length)
 
 举例：
 
@@ -205,8 +195,8 @@ console.log(name.startsWith('a')); // 打印结果：true
 console.log(name.startsWith('b')); // 打印结果：false
 
 // 因为指定了起始位置为3，所以是在 defg 这个字符串中检索。
-console.log(name.startsWith('d',3)); // 打印结果：true
-console.log(name.startsWith('c',3)); // 打印结果：false
+console.log(name.startsWith('d', 3)); // 打印结果：true
+console.log(name.startsWith('c', 3)); // 打印结果：false
 ```
 
 ### 5、endsWith()：字符串是否以指定的内容结尾
@@ -214,18 +204,19 @@ console.log(name.startsWith('c',3)); // 打印结果：false
 **语法**：
 
 ```js
-布尔值 = str.endsWith(想要查找的内容, [position]);z
+布尔值 = str.endsWith(想要查找的内容, [position]);
+z;
 ```
 
 **解释**：判断一个字符串是否以指定的子字符串结尾。如果是，则返回 true；否则返回 false。
 
-**参数中的position**：
+**参数中的 position**：
 
-- 如果不指定，则默认为 str.length。
+-   如果不指定，则默认为 str.length。
 
-- 如果指定，则规定了**检索的结束位置**。检索的范围包括：从第一个字符串开始，直到这个指定的位置。即：[0, position)
+-   如果指定，则规定了**检索的结束位置**。检索的范围包括：从第一个字符串开始，直到这个指定的位置。即：[0, position)
 
-- 或者你可以这样简单理解：endsWith() 方法里的position，表示**检索的长度**。
+-   或者你可以这样简单理解：endsWith() 方法里的 position，表示**检索的长度**。
 
 注意：startsWith() 和 endsWith()这两个方法，他们的 position 的含义是不同的，请仔细区分。
 
@@ -342,12 +333,9 @@ for (var i = 0; i < str.length; i++) {
 
 ## 字符串截取
 
-
 ### 1、slice()
 
-
 > slice() 方法用的最多。
-
 
 语法：
 
@@ -359,15 +347,15 @@ for (var i = 0; i < str.length; i++) {
 
 注意：上面的参数，包左不包右。参数举例如下：
 
-- `(2, 5)` 截取时，包左不包右。
+-   `(2, 5)` 截取时，包左不包右。
 
-- `(2)` 表示**从指定的索引位置开始，截取到最后**。
+-   `(2)` 表示**从指定的索引位置开始，截取到最后**。
 
-- `(-3)` 表示从倒数第三个开始，截取到最后。
+-   `(-3)` 表示从倒数第三个开始，截取到最后。
 
-- `(1, -1)` 表示从第一个截取到倒数第一个。
+-   `(1, -1)` 表示从第一个截取到倒数第一个。
 
-- `(5, 2)` 表示前面的大，后面的小，返回值为空。
+-   `(5, 2)` 表示前面的大，后面的小，返回值为空。
 
 ### 2、substring()
 
@@ -381,9 +369,9 @@ for (var i = 0; i < str.length; i++) {
 
 `substring()`和`slice()`是类似的。但不同之处在于：
 
-- `substring()`不能接受负值作为参数。如果传递了一个**负值**，则默认使用 0。
+-   `substring()`不能接受负值作为参数。如果传递了一个**负值**，则默认使用 0。
 
-- `substring()`还会自动调整参数的位置，如果第二个参数小于第一个，则自动交换。比如说， `substring(1, 0)`相当于截取的是第一个字符。
+-   `substring()`还会自动调整参数的位置，如果第二个参数小于第一个，则自动交换。比如说， `substring(1, 0)`相当于截取的是第一个字符。
 
 ### 3、substr()
 
@@ -399,15 +387,13 @@ for (var i = 0; i < str.length; i++) {
 
 参数举例：
 
-- `(2,4)` 从索引值为 2 的字符开始，截取 4 个字符。
+-   `(2,4)` 从索引值为 2 的字符开始，截取 4 个字符。
 
-- `(1)` 从指定位置开始，截取到最后。
+-   `(1)` 从指定位置开始，截取到最后。
 
-- `(-3)` 从倒数第几个开始，截取到最后.
+-   `(-3)` 从倒数第几个开始，截取到最后.
 
 备注：ECMAscript 没有对 `substr()` 方法进行标准化，因此不建议使用它。
-
-
 
 ## String.fromCharCode()
 
@@ -474,7 +460,7 @@ console.log(array); // 打印结果是数组：["qian", " gu", " yi", " hao"]
 //split()方法：字符串变数组
 var str3 = '千古壹号|qianguyihao|许嵩';
 
-console.log('结果1：' +str3.split()); // 无参数，表示：把整个字符串作为一个元素添加到数组中。
+console.log('结果1：' + str3.split()); // 无参数，表示：把整个字符串作为一个元素添加到数组中。
 
 console.log(str3.split('')); // 参数为空字符串，则表示：分隔字符串中每一个字符，分别添加到数组中
 
@@ -486,10 +472,6 @@ console.log(str3.split('许')); // 同上
 打印结果：（都是数组）
 
 ![](http://img.smyhvae.com/20200611_2050.png)
-
-
-
-
 
 ## replace()
 
@@ -524,7 +506,7 @@ newStr = str.repeat(重复的次数);
 
 解释：将字符串重复指定的次数。会返回新的值，不会修改原字符串。
 
-举例1：
+举例 1：
 
 ```js
 const name = 'qianguyihao';
@@ -532,7 +514,7 @@ const name = 'qianguyihao';
 console.log(name.repeat(2)); // 打印内容：qianguyihaoqianguyihao
 ```
 
-举例2：（模糊字符串的后四位）
+举例 2：（模糊字符串的后四位）
 
 ```js
 const telephone = '13088889999';
@@ -541,11 +523,6 @@ const mix_telephone = telephone.slice(0, -4) + '*'.repeat(4); // 模糊电话号
 console.log(telephone); // 打印结果：13088889999
 console.log(mix_telephone); // 打印结果：1308888****
 ```
-
-
-
-
-
 
 ## trim()
 
@@ -583,17 +560,17 @@ console.log(str.toUpperCase());
 
 ## html 方法
 
-- anchor() 创建 a 链接
+-   anchor() 创建 a 链接
 
-- big()
+-   big()
 
-- sub()
+-   sub()
 
-- sup()
+-   sup()
 
-- link()
+-   link()
 
-- bold()
+-   bold()
 
 注意，str.link() 返回值是字符串。
 
@@ -671,11 +648,3 @@ for (var i = 0; i < str2.length; i++) {
 打印结果：
 
 ![](http://img.smyhvae.com/20180202_1540.png)
-
-## 我的公众号
-
-想学习**代码之外的技能**？不妨关注我的微信公众号：**千古壹号**。
-
-扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
-
-![](http://img.smyhvae.com/20190101.png)
